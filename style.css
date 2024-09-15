@@ -12,6 +12,27 @@ body {
     margin: 0 auto;
 }
 
+/*Basic reset*/
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Sans-serif;
+}
+
+.video-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:#000;
+    
+}
+
+video {
+    max-width:100%;
+    height:auto;
+    border:2px solid #fff; 
+
 /* Header*/
 header {
     background:blue;
